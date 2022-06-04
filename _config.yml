@@ -1,1 +1,18 @@
+title: Books Code Mentor
+lang: it
+description: "La migliore selezione di libri per l'ingegneria del software e lo sviluppo software professionale"
+
 remote_theme: rundocs/jekyll-rtd-theme
+
+readme_index:
+  with_frontmatter: true
+
+exclude:
+  - Makefile
+  - Gemfile
+  - Gemfile.lock
+
+plugins:
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
